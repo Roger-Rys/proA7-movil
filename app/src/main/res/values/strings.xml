@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ProA7 movil</string>
+    <!--MENU PRINCIPAL-->
+    <string name="tv_miBici">MI BICI</string>
+    <string name="bt_map">Buscar bici</string>
+    <string name="bt_informacion">Informacion</string>
+    <string name="bt_numTelefonico">Cambiar Numero</string>
+
+    <!--MENU SECUDARIO-->
+    <string name="ubicacionBici">Ubicacion bici</string>
+
+    <!--MENU TELEFONICO-->
+
+    <string name="tv_numTelefono">Ingresar:</string>
+    <string name="numTelefono">Numero Telefonico</string>
+    <string name="guardar">Guardar Numero</string>
+
+
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name='ProA7 movil'
+include ':app'

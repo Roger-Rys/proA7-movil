@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorFondoNoctur"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_miBici"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/tv_miBici"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+        <ImageView
+            android:id="@+id/iv_iconoBici"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/tv_miBici"
+            app:srcCompat="@drawable/bicycle_big" />
+
+        <Button
+            android:id="@+id/bt_mapa"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:drawableStart="@android:drawable/ic_dialog_map"
+            android:drawableLeft="@android:drawable/ic_dialog_map"
+            android:drawingCacheQuality="auto"
+            android:background="@drawable/margen"
+            android:onClick="Mapa"
+            android:text="@string/bt_map"
+            android:textColor="@android:color/white"
+            android:textSize="40dp"
+            android:typeface="serif"
+            />
+
+        <Button
+            android:id="@+id/bt_inforamcion"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:onClick="Informacion"
+            android:background="@drawable/margen"
+            android:text="@string/bt_informacion"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:typeface="serif"/>
+
+        <Button
+            android:id="@+id/bt_numTelef"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:onClick="numTelefonico"
+            android:background="@drawable/margen"
+            android:text="@string/bt_numTelefonico"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:typeface="serif"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

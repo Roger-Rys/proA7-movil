@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!--COLORES PARA FONDO-->
+    <color name="colorFondoNoctur">#003333</color>
+    <!--COLORES PARA BOTONES-->
+    <color name="colorBotones">#2f2e2e</color>
+
+    <!--METODO TRANSPARENTE-->
+    <color name="colorTransparente">#00000000</color>
+</resources>
